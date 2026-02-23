@@ -1,12 +1,8 @@
 # china-hk-market-data
-## HKEX-data-scraper
-I gathered daily stock data for each firm in the Hong Kong Stock Exchange.
+I gathered daily stock data for each firm in the Hong Kong Stock Exchange and Shanghai Stock Exchange.
 
-First, I scraped the [this website](https://stockanalysis.com/list/hong-kong-stock-exchange/?__v=1771418419981) to get all the firms present.
+## HKEX-data-scraper
+I scraped [this website](https://stockanalysis.com/list/hong-kong-stock-exchange/?__v=1771418419981) to get all the firms present, and I used the yfinance API and saved the data for each firm as `.pkl` files in the `data` folder.
 
 ## SSE-data-scraper
-I gathered daily stock data for each firm in the Shanghai Stock Exchange.
-
-First, I scraped the Shanghai Stock Exchange Website to get all the firms present.
-Then, I gathered daily data for each firm from the yfinance API and saved them as `.pkl` files. 
-This should be in the `data` folder. 
+Similar methodology for the HKEX data, but I scraped [this website](https://english.sse.com.cn/markets/indices/data/list/constituents/index.shtml?COMPANY_CODE=000001&INDEX_Code=000001) instead.
